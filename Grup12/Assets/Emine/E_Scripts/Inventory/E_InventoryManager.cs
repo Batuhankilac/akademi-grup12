@@ -8,8 +8,7 @@ public class E_InventoryManager : MonoBehaviour
     public List<E_InventoryItem> items = new List<E_InventoryItem>();
     public E_InventoryUI inventoryUI;
     public E_InventoryItem selectedItem;
-
-    private E_InventorySlot selectedSlot; // Yeni: Seçili slotu tut
+    private E_InventorySlot selectedSlot;
 
     private void Awake()
     {
@@ -32,28 +31,21 @@ public class E_InventoryManager : MonoBehaviour
         inventoryUI.UpdateUI(items);
     }
 
-
     public void AddItem(E_InventoryItem newItem)
     {
-        // Ayný isimde bir eþya var mý diye kontrol et
         E_InventoryItem existingItem = items.Find(item => item.itemName == newItem.itemName);
 
         if (existingItem != null)
         {
-            // Varsa sadece sayýsýný artýr
             existingItem.count += newItem.count;
-
-            // UI'yi güncelle
             inventoryUI.UpdateUI(items);
 
-            // Ayný eþyayý tutan slotu bul ve seç
             int index = items.IndexOf(existingItem);
             E_InventorySlot slot = inventoryUI.slots[index];
             SetSelectedItem(existingItem, slot);
         }
         else
         {
-            // Yoksa yeni eþya olarak ekle
             items.Add(newItem);
             inventoryUI.UpdateUI(items);
 
@@ -63,20 +55,15 @@ public class E_InventoryManager : MonoBehaviour
         }
     }
 
-
-
-    // Slot bilgisiyle birlikte item'ý ayarlayan yeni metod
     public void SetSelectedItem(E_InventoryItem item, E_InventorySlot clickedSlot)
     {
         selectedItem = item;
 
-        // Eski slot varsa çerçevesini kaldýr
         if (selectedSlot != null)
             selectedSlot.DeselectSlot();
 
         selectedSlot = clickedSlot;
 
-        // Yeni seçilen slotu vurgula
         if (clickedSlot != null)
             clickedSlot.SelectSlot();
     }
@@ -84,5 +71,36 @@ public class E_InventoryManager : MonoBehaviour
     public E_InventoryItem GetSelectedItem()
     {
         return selectedItem;
+    }
+
+    public void RemoveOneFromSelected()
+    {
+        if (selectedItem == null) return;
+
+        selectedItem.count--;
+
+        if (selectedItem.count <= 0)
+        {
+            int index = items.IndexOf(selectedItem);
+            if (index >= 0)
+            {
+                items.RemoveAt(index);
+                inventoryUI.UpdateUI(items);
+
+                selectedItem = null;
+                if (items.Count > 0)
+                {
+                    SetSelectedItem(items[0], inventoryUI.slots[0]);
+                }
+                else
+                {
+                    selectedSlot = null;
+                }
+            }
+        }
+        else
+        {
+            inventoryUI.UpdateUI(items);
+        }
     }
 }

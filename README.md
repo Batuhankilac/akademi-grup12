@@ -27,3 +27,14 @@
 |-------|----------|
 | 📌 **20/06/2025** | [Sprint Board Görüntüle](https://drive.google.com/file/d/1PT6ikr8GVEOK8XiM8lDsW_dA1T-UEhYT/view?usp=drive_link) |
 | 📌 **06/07/2025** | [Sprint Board Görüntüle](https://drive.google.com/file/d/1wfrjgCGkO32pcSqNS9YiF4vAFRAdaToL/view?usp=drive_link) |
+
+---
+## Sprint Review
+- Multiplayer, envanter, nesne etkileşimi ve görev sistemleri tamamlandı.
+- Asset araştırmaları yapılarak örnek sahne tasarımı ve ışıklandırması yapıldı.
+- Temel mekaniklerin büyük çoğunluğu bitirildi, karakter ve npc sistemleri eklenerek tamamlanacak.
+
+## Sprint Retrospective
+- Bireysel yoğunluklardan kaynaklı görevlerin tamamlanması ve iletişim konularında eksiklikler yaşandı.
+- Haftalık toplantı gün ve saatlerinin güncellenebilir olmasına, ilerleme hızının arttırılması gerektiğine karar verildi.
+

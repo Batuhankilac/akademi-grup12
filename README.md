@@ -21,7 +21,7 @@
 
 ---
 
-## 🧾 Sprint Boardlar
+## 🧾 Sprint Board Güncellemeleri
 
 | Tarih | Bağlantı |
 |-------|----------|

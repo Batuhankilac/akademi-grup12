@@ -10,6 +10,8 @@
 ---
 
 ## 📅 Sprint 1
+- Planlanan Puan: 100
+- Tamamlanan: 79
 
 ### 🗂️ Sprint Notları
 - Proje konusu belirlendi, planlama yapıldı.
@@ -18,6 +20,7 @@
 ### 📞 Daily Scrum
 - Günlük iletişim **WhatsApp** üzerinden gerçekleştirilecektir.  
 - Haftada **iki kez sesli toplantı** yapılmasına karar verildi.
+- [Daily & Toplantı Özetleri](https://drive.google.com/drive/folders/1tx5Pi7b493omcipUvQSz6q71dt1xVGRv?usp=drive_link)
 
 ---
 

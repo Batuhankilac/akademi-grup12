@@ -28,7 +28,7 @@
 
 | Tarih | Bağlantı |
 |-------|----------|
-| 📌 **20/06/2025** | [Sprint Board Görüntüle](https://drive.google.com/file/d/1PT6ikr8GVEOK8XiM8lDsW_dA1T-UEhYT/view?usp=drive_link) |
+| 📌 **20/06/2025** | [Sprint Board Görüntüle](sprint/board/Ekran görüntüsü 2025-07-06 234901.png) |
 | 📌 **06/07/2025** | [Sprint Board Görüntüle](https://drive.google.com/file/d/1wfrjgCGkO32pcSqNS9YiF4vAFRAdaToL/view?usp=drive_link) |
 
 ---

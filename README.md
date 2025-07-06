@@ -25,11 +25,13 @@
 ---
 
 ## 🧾 Sprint Board Güncellemeleri
+<p align="center">
+  <img src="sprint/board/Ekran görüntüsü 2025-07-06 234901.png" alt="Sprint Board 20.06.2025" width="600"/>
+</p>
 
-| Tarih | Bağlantı |
-|-------|----------|
-| 📌 **20/06/2025** | [Sprint Board Görüntüle](sprint/board/Ekran görüntüsü 2025-07-06 234901.png) |
-| 📌 **06/07/2025** | [Sprint Board Görüntüle](https://drive.google.com/file/d/1wfrjgCGkO32pcSqNS9YiF4vAFRAdaToL/view?usp=drive_link) |
+<p align="center">
+  <img src="sprint/board/Ekran görüntüsü 2025-07-06 235123.png" alt="Sprint Board 06.07.2025" width="600"/>
+</p>
 
 ---
 ## Sprint Review
@@ -44,4 +46,18 @@
 ---
 
 ## Ürün Durumu
-- [Ekran Görüntüleri](https://drive.google.com/drive/folders/1z0BeB5alFHOnE1kteGXh58PJ1dve3yPj?usp=sharing)
+<p align="center">
+  <img src="sprint/product/Ekran görüntüsü 2025-07-07 004047.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint/product/Ekran görüntüsü 2025-07-07 004227.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint/product/Ekran görüntüsü 2025-07-07 004927.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint/product/Ekran görüntüsü 2025-07-07 005005.png" width="600"/>
+</p>

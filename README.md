@@ -41,3 +41,7 @@
 - Bireysel yoğunluklardan kaynaklı görevlerin tamamlanması ve iletişim konularında eksiklikler yaşandı.
 - Haftalık toplantı gün ve saatlerinin güncellenebilir olmasına, ilerleme hızının arttırılması gerektiğine karar verildi.
 
+---
+
+## Ürün Durumu
+- [Ekran Görüntüleri](https://drive.google.com/drive/folders/1z0BeB5alFHOnE1kteGXh58PJ1dve3yPj?usp=sharing)

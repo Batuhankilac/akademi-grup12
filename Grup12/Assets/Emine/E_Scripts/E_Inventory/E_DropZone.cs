@@ -1,8 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class E_DropZone : MonoBehaviour
 {
     private bool playerInZone = false;
+
+    public bool itemUsed = false;
 
     private void Update()
     {
@@ -28,6 +31,33 @@ public class E_DropZone : MonoBehaviour
                 Debug.Log("Drop yapýlacak uygun item yok.");
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            E_InventoryItem selectedItem = E_InventoryManager.Instance.GetSelectedItem();
+            if (selectedItem != null)
+            {
+                itemUsed = true;  // Önce iþaretle
+                Debug.Log($"{selectedItem.itemName} kullanýlýyor...");
+                StartCoroutine(RemoveSelectedItemAfterDelay(3f));
+            }
+            else
+            {
+                Debug.Log("Seçili bir item yok.");
+            }
+        }
+    }
+
+    private IEnumerator RemoveSelectedItemAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        E_InventoryItem selectedItem = E_InventoryManager.Instance.GetSelectedItem();
+        if (selectedItem != null)
+        {
+            E_InventoryManager.Instance.RemoveOneFromSelected();
+            Debug.Log($"{selectedItem.itemName} envanterden çýkarýldý.");
+        }
     }
 
     private Vector3 GetRandomPointOnTop()
@@ -42,8 +72,8 @@ public class E_DropZone : MonoBehaviour
         Vector3 size = col.bounds.size;
         Vector3 center = col.bounds.center;
 
-        float xOffset = Random.Range(-size.x / 2f, size.x / 2f);
-        float zOffset = Random.Range(-size.z / 2f, size.z / 2f);
+        float xOffset = Random.Range(-size.x / 1.5f, size.x / 1.5f);
+        float zOffset = Random.Range(-size.z / 1.5f, size.z / 1.5f);
 
         Vector3 pointOnTop = new Vector3(center.x + xOffset, col.bounds.max.y + 0.1f, center.z + zOffset);
         return pointOnTop;

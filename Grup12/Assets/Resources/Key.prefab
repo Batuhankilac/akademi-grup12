@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1278357574389297695}
   - component: {fileID: 3896562502004548108}
   m_Layer: 0
-  m_Name: Ball
+  m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,10 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d781d32a2388b943b56fe31f515e75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Ball
+  itemName: Key
   icon: {fileID: 21300000, guid: af6e161bca83ee440b48b8c1133c0933, type: 3}
   amount: 1
-  prefab: {fileID: 5121127677665280846}
 --- !u!135 &3896562502004548108
 SphereCollider:
   m_ObjectHideFlags: 0

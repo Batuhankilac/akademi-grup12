@@ -48,7 +48,7 @@ public class E_DropZone : MonoBehaviour
         }
     }
 
-    private IEnumerator RemoveSelectedItemAfterDelay(float delay)
+    public IEnumerator RemoveSelectedItemAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
 

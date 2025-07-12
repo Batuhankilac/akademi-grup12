@@ -7,7 +7,7 @@ public class E_EnemyChase : MonoBehaviour
     public Transform prisonArea;
     public Transform startPoint; // Sahnedeki sabit dönüþ noktasý
 
-    private bool carryingPlayer = false;
+    public bool carryingPlayer = false;
     private bool returning = false;
 
     void Update()

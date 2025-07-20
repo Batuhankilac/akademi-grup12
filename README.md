@@ -97,7 +97,7 @@
 ### 📞 Daily Scrum
 - Günlük ilerleme paylaşımları **WhatsApp** üzerinden yapıldı.
 - Haftada **iki kez sesli toplantı** gerçekleştirildi.
-- [Daily & Toplantı Özetleri](https://drive.google.com/drive/folders/1WpfAkQ9AYgoq105I_wECK41KM1wiLsf_?usp=drive_link)
+- [Daily & Toplantı Özetleri](https://drive.google.com/drive/folders/1eA_eZdznPAODCo20t2vwwsXacvPHAIMW?usp=sharing)
 
 ---
 

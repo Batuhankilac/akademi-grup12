@@ -103,31 +103,24 @@
 
 ### 🧾 Sprint Board Güncellemeleri
 <p align="center">
-  <img src="sprint2/board/" alt="Sprint Board 20.06.2025" width="600"/>
+  <img src="sprint2/board/Ekran görüntüsü 2025-07-21 005246.png" alt="Sprint Board 06.07.2025" width="600"/>
 </p>
 
 <p align="center">
-  <img src="sprint2/board/" alt="Sprint Board 06.07.2025" width="600"/>
+  <img src="sprint2/board/Ekran görüntüsü 2025-07-21 005101.png" alt="Sprint Board 20.07.2025" width="600"/>
 </p>
 
 ---
 
 ### 🎮 Ürün Durumu
 <p align="center">
-  <img src="sprint2/product/" width="600"/>
+  <img src="sprint2/product/Ekran görüntüsü 2025-07-21 011312.png" width="600"/>
 </p>
 
 <p align="center">
-  <img src="sprint2/product/" width="600"/>
+  <img src="sprint2/product/Ekran görüntüsü 2025-07-21 011158.png" width="600"/>
 </p>
 
-<p align="center">
-  <img src="sprint2/product/" width="600"/>
-</p>
-
-<p align="center">
-  <img src="sprint2/product/" width="600"/>
-</p>
 
 ---
 ### Sprint Review

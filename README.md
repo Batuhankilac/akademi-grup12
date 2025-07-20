@@ -1,8 +1,7 @@
 # 👥 Grup 12
 
 ## 👤 Ekip Üyeleri
-- **Emine Kilik** – *Scrum Master & Developer*  
-- **Berke Bakırcı** – *Product Owner & Developer*  
+- **Emine Kilik** – *Scrum Master & Product Owner & Developer*   
 - **Azra Baltalı** – *Developer*  
 - **Batuhan Kılaç** – *Developer*  
 - **Ömer Faruk Çakıllı** – *Developer*
@@ -76,4 +75,67 @@
 - Sprint süresince bireysel yoğunluklar bazı görevlerde gecikmeye neden oldu.
 - İletişim sıklığının arttırılması ve ilerleme güncellemelerinin daha düzenli paylaşılması gerektiği görüldü.
 - Toplantıların sabit değil, esnek saatlerle planlanmasının takıma daha uygun olduğu gözlemlendi.
+
+## 📅 Sprint 2
+
+### 🗂️ Sprint Notları
+- Projenin ana mekanikleri oluşturuldu.
+- Npc takip ve yakalama sistemleri, karakter hareketi, kasa sistemi oluşturuldu.
+- Sahne tasarımı genişletildi, oyun içi assetler ve sesler bulundu.
+- Bireysel yoğunluklar nedeniyle birçok görev yapılmadı.
+- Takımdan bir kişi aktif olmaması ve iletişime geçmemesi sebebiyle çıkarıldı.
+
+### 📈 Tahmin Edilen Tamamlanacak Puan
+- Planlanan Puan: 139
+- Tamamlanan Puan: 60
+
+### 🔍 Tahmin Mantığı
+- Toplamda 300 puanlık iş belirlendi, bu işler 3 sprinte bölünerek her sprint için yaklaşık 100 puan hedeflendi.
+- Önceki sprintte tamamlanamayan görevlerin bu sprintte tamamlanması hedeflenerek toplam puana eklendi.
+- İlk sprintte temel mekanikler; ikinci sprintte oyun akışı ve tamamlayıcı sistemler; üçüncü sprintte ise oyunu zenginleştirecek detaylar planlandı.
+
+### 📞 Daily Scrum
+- Günlük ilerleme paylaşımları **WhatsApp** üzerinden yapıldı.
+- Haftada **iki kez sesli toplantı** gerçekleştirildi.
+- [Daily & Toplantı Özetleri](https://drive.google.com/drive/folders/1WpfAkQ9AYgoq105I_wECK41KM1wiLsf_?usp=drive_link)
+
+---
+
+### 🧾 Sprint Board Güncellemeleri
+<p align="center">
+  <img src="sprint2/board/" alt="Sprint Board 20.06.2025" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint2/board/" alt="Sprint Board 06.07.2025" width="600"/>
+</p>
+
+---
+
+### 🎮 Ürün Durumu
+<p align="center">
+  <img src="sprint2/product/" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint2/product/" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint2/product/" width="600"/>
+</p>
+
+<p align="center">
+  <img src="sprint2/product/" width="600"/>
+</p>
+
+---
+### Sprint Review
+- Sprint sonunda Npc takip ve yakalama sistemleri, karakter hareketi, kasa sistemi oluşturuldu.
+- Sahne tasarımı genişletildi, oyun içi assetler ve sesler bulundu.
+- Geliştirme süreci çok yavaşladı, istenilen hedefe ulaşılamadı.
+
+### Sprint Retrospective
+- Sprint süresince bireysel yoğunluklar projenin aksamasına neden oldu.
+- Takımda aktif olmayan ve henüz hiç görev yapmamış üyeler bulunduğundan projenin basitleştirilmesi gerektiği gözlemlendi.
 
